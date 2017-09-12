@@ -34,60 +34,75 @@
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <h1>Post-Experiment Questionnaire</h1>
-                    <hr>
-                    <p>This part of the interface collects whatever post-experiment information. After the experiment, you want to collect more qualitative and quantitative feedback about the tested techniques. Some of the typical questions include, personal preferences, any difficulties participants experienced in the experiment, and areas of improvement. Please design a basic post-experimental questionnaire (no more than 10 questions).</p>
-
                     <p>Current participant: <span class="js-pid pid"></span></p>
-
+                    <h3>On Techniques</h3>
+                    <p><mark> Please answer the following questions using this 5-point Likert scale:
+                    <strong>1  = strongly disagree; 2 = disagree; 3 = neutral; 4 = agree; 5 = strongly agree</strong></mark></p>
                     <form id="post-expt-form">
-                        <div class="form-group">
-                            <label for="q1">Question 1 - Text</label>
-                            <input type="text" class="form-control" id="q1" name="q1" placeholder="Enter answer">
-                        </div>
-                        <div class="form-group">
-                            <label for="q2">Question 2 - Radio</label>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="q2" id="optionsRadios1" value="radio1">
-                                Radio response 1
-                              </label>
-                            </div>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="q2" id="optionsRadios2" value="radio2">
-                                Radio response 2
-                              </label>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="q3">Question 3 - Checkbox</label>
-                            <div class="checkbox">
-                              <label>
-                                <input type="checkbox" name="q3" value="checkbox1">
-                                Checkbox response 1
-                              </label>
-                            </div>
-                            <div class="checkbox">
-                              <label>
-                                <input type="checkbox" name="q3" value="checkbox2">
-                                Checkbox response 2
-                              </label>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="q4">Question 4 - Select Options</label>
-                            <select class="form-control" name="q4">
-                                <option value="option1">Option response 1</option>
-                                <option value="option2">Option response 2</option>
-                                <option value="option3">Option response 3</option>
-                                <option value="option4">Option response 4</option>
-                                <option value="option1">Option response 5</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="q5">Question 5 - Textarea</label>
-                            <textarea class="form-control" id="q5" name="q5" placeholder="Enter response"></textarea>
-                        </div>
+                      <div class="form-group">
+                          <label for="q1">I find AutoComPaste very easy to use.</label>
+                          <select class="form-control" name="q1">
+                              <option value="opt1">1</option>
+                              <option value="opt2">2</option>
+                              <option value="opt3">3</option>
+                              <option value="opt4">4</option>
+                              <option value="opt1">5</option>
+                          </select>
+                      </div>
+                      <div class="form-group">
+                          <label for="q2">b.	I think AutoComPaste will increase my efficiency while I am using the computer to do copy and paste work.</label>
+                          <select class="form-control" name="q2">
+                              <option value="opt1">1</option>
+                              <option value="opt2">2</option>
+                              <option value="opt3">3</option>
+                              <option value="opt4">4</option>
+                              <option value="opt1">5</option>
+                          </select>
+                      </div>
+                      <div class="form-group">
+                          <label for="q3">I was able to pick up AutoComPaste easily.</label>
+                          <select class="form-control" name="q3">
+                              <option value="opt1">1</option>
+                              <option value="opt2">2</option>
+                              <option value="opt3">3</option>
+                              <option value="opt4">4</option>
+                              <option value="opt1">5</option>
+                          </select>
+                      </div>
+                      <div class="form-group">
+                          <label for="q4">I was able to pick up AutoComPaste without any guidance.</label>
+                          <select class="form-control" name="q4">
+                              <option value="opt1">1</option>
+                              <option value="opt2">2</option>
+                              <option value="opt3">3</option>
+                              <option value="opt4">4</option>
+                              <option value="opt1">5</option>
+                          </select>
+                      </div>
+                      <div class="form-group">
+                          <label for="q5">I find the Ctrl-C/Ctrl-V method (i.e. the traditional way) very easy to use.</label>
+                          <select class="form-control" name="q5">
+                              <option value="opt1">1</option>
+                              <option value="opt2">2</option>
+                              <option value="opt3">3</option>
+                              <option value="opt4">4</option>
+                              <option value="opt1">5</option>
+                          </select>
+                      </div>
+                      <hr>
+                      <h3>On Experiment</h3>
+                      <div class="form-group">
+                          <label for="q6">Did you face any challenges while doing this experiment? If yes, what are they? </label>
+                          <textarea class="form-control" id="q6" name="q6" placeholder="Please share your thoughts"></textarea>
+                      </div>
+                      <div class="form-group">
+                          <label for="q7">Would you use AutoComPaste over the traditional copy-paste technique if it is made available in the future? Why?</label>
+                          <textarea class="form-control" id="q7" name="q7" placeholder="Please share your thoughts"></textarea>
+                      </div>
+                      <div class="form-group">
+                          <label for="q8">Do you have any suggested improvements for the experiment setup?</label>
+                          <textarea class="form-control" id="q8" name="q8" placeholder="Please share your thoughts"></textarea>
+                      </div>
                         <button type="submit" class="btn btn-primary btn-lg">Submit</button>
                     </form>
                 </div>
