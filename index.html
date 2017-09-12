@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>CS4249 Assignment 1</title>
+        <title>CS4249 HCI Experiment Test System</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/normalize.css">
@@ -33,15 +33,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
-                    <h1>Welcome!</h1>
+                    <h1>Hello!</h1>
                     <hr>
-                    <p>The startup interface provides the basic instructions to your participants, and also collect input from the participant/experimenter the participant ID so that you can generate the correct data log for a particular experiment session.</p>
+                    <p>Thank you for agreeing to take part in my experiments. This should not take a total of more than 40 min of your precious time.</p>
+                    <p>The ~40 min of time will include 2 questionnaires that you will be doing and will go a long way :)</p>
+                    <p>Once again, I really appreciate your honest participation!</p>
 
-                    <p>This is a template. Please write your participant number ID given by your experimenter. Participant IDs should only consist of alphanumeric characters.</p>
                     <form class="form-inline" id="pid-form">
                         <div class="form-group">
                             <label for="pid">Participant ID</label>
-                            <input name="pid" type="text" class="form-control" id="pid" placeholder="E.g. P01">
+                            <input name="pid" type="text" class="form-control" id="pid" placeholder="E.g. P1">
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
@@ -64,7 +65,7 @@
                         ACPToolKit.setCurrentParticipantId(pid);
                         window.location = 'questionnaire-pre.html';
                     } else {
-                        alert('Please enter a valid Participant ID (pid)!');
+                        alert('Please enter a valid Participant ID (pid)! Please ask Jia Lin if you do not know your ID');
                     }
                 });
             });
