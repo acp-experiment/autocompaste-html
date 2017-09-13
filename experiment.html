@@ -117,7 +117,7 @@
               pid = ACPToolKit.getCurrentParticipantId();
               if (pid) {
                 var experimentjson = 'data/experiments.json';
-                // var experimentjson = 'data/experiments' + pid + '.json';
+                console.log('experimentjson', experimentjson);
               }
                 $.get('data/experiments.json', function (data) {
                     trialsData = data.experiments;

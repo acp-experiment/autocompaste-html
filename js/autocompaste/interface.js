@@ -111,16 +111,14 @@ AutoComPaste.Interface = (function () {
         console.log("Interface._fetchTextComplete: Finished fetching all texts");
 
         for (var text_title in privates.texts) {
-          console.log('text_title:', privates.texts);
           var titles = text_title.split(".");
           var titleNumber = parseInt(titles[0]);
-          console.log("titleNumber:", titles);
+          // console.log("titleNumber:", titles);
           if ($.inArray(titleNumber, windows) != -1) {
           if (privates.texts.hasOwnProperty(text_title)) {
             console.log("Interface._fetchTextComplete: Creating window for text \"" + text_title + "\"");
             iface._createWindowForText(text_title);
           }
-        } else {
         }
       }
 
