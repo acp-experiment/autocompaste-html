@@ -47,7 +47,7 @@
                             </tr>
                             <tr>
                                 <td>Number of Open Windows</td>
-                                <td><span class="js-expt-numOpenWindows">1</span></td>
+                                <td><span class="js-expt-num_open_windows">1</span></td>
                             </tr>
                             <tr>
                                 <td>Trial</td>
@@ -117,13 +117,14 @@
               pid = ACPToolKit.getCurrentParticipantId();
               if (pid) {
                 var experimentjson = 'data/experiments.json';
+                // var experimentjson = 'data/experiments' + pid + '.json';
               }
                 $.get('data/experiments.json', function (data) {
                     trialsData = data.experiments;
                     currentTrial = 0;
                     totalNumberOfTrials = trialsData.length; // make to 36
 
-                    console.log('trialsData', trialsData);
+                    console.log("trialsData", trialsData);
                     $('.js-expt-num-trials').text(totalNumberOfTrials);
                     trialData.push(headers);
                     next();

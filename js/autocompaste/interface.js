@@ -33,7 +33,7 @@ AutoComPaste.Interface = (function () {
   /**
    * The class constructor.
    */
-  function Interface (wm, engine, texts_json, numOpenWindows) {
+  function Interface (wm, engine, texts_json, windows) {
     /** Internal functions */
     this._showError = function _showerror() {
       document.getElementById('error-overlay').style.display = 'block';
@@ -110,23 +110,19 @@ AutoComPaste.Interface = (function () {
         // For every text that we find, we create a new window for it.
         console.log("Interface._fetchTextComplete: Finished fetching all texts");
 
-
         for (var text_title in privates.texts) {
-          var textsArray = text_title.split(".");
-          var currText = parseInt(textsArray[0]);
-          console.log('my textsArray is:', textsArray, currText, privates.texts);
-
-          // if ($.inArray(currText, num_open_windows) != -1) {
-            if (privates.texts.hasOwnProperty(text_title) && numOpenWindows != 1) {
-              console.log("Interface._fetchTextComplete: Creating window for text \"" + text_title + "\"");
-              iface._createWindowForText(text_title);
-            } else if (currText == numOpenWindows) {
-              console.log('create windows');
-              iface._createWindowForText(text_title);
-
-            }
-          //}
+          console.log('text_title:', privates.texts);
+          var titles = text_title.split(".");
+          var titleNumber = parseInt(titles[0]);
+          console.log("titleNumber:", titles);
+          if ($.inArray(titleNumber, windows) != -1) {
+          if (privates.texts.hasOwnProperty(text_title)) {
+            console.log("Interface._fetchTextComplete: Creating window for text \"" + text_title + "\"");
+            iface._createWindowForText(text_title);
+          }
+        } else {
         }
+      }
 
         // Create a text editor window.
         var acp_textarea = $(document.createElement('textarea'))
