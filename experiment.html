@@ -116,15 +116,18 @@
             $(document).ready(function () {
               pid = ACPToolKit.getCurrentParticipantId();
               if (pid) {
-                var experimentjson = 'data/experiment.json';
+                var experimentjson = 'data/experiments.json';
               }
                 $.get('data/experiments.json', function (data) {
-                    trialsData = data.experiments;
+                    trialsData = $.parseJSON(data).experiments;
                     currentTrial = 0;
                     totalNumberOfTrials = trialsData.length; // make to 36
+
+                    console.log('trialsData', trialsData);
                     $('.js-expt-num-trials').text(totalNumberOfTrials);
                     trialData.push(headers);
                     next();
+                    pid = ACPToolKit.getCurrentParticipantId();
                 })
             });
         </script>

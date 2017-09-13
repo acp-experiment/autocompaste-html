@@ -110,6 +110,8 @@ AutoComPaste.Interface = (function () {
         // For every text that we find, we create a new window for it.
         console.log("Interface._fetchTextComplete: Finished fetching all texts");
 
+        var count = 0;
+
         for (var text_title in privates.texts) {
           if (privates.texts.hasOwnProperty(text_title)) {
             console.log("Interface._fetchTextComplete: Creating window for text \"" + text_title + "\"");
