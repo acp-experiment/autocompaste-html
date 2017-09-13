@@ -46,8 +46,8 @@
                                 <td><span class="js-expt-granularity">Phrase</span></td>
                             </tr>
                             <tr>
-                                <td>Independent Variable 3</td>
-                                <td>???</td>
+                                <td>Number of Open Windows</td>
+                                <td><span class="js-expt-numOpenWindows">1</span></td>
                             </tr>
                             <tr>
                                 <td>Trial</td>
@@ -80,7 +80,7 @@
             var trialsData;
             var currentTrial;
             var totalNumberOfTrials;
-            var headers = ['Participant id', 'Technique', 'Granularity',
+            var headers = ['Participant id', 'Technique', 'Granularity', 'Number of Open Windows',
                             'Trial no', 'Stimuli', 'User Response', 'Trial Start Time',
                             'Trial End Time', 'Trial Time', 'Accuracy'];
             var trialData = [];
@@ -90,6 +90,7 @@
                     var trialResult = ACPToolKit.getCurrentTrialState();
                     var technique = trialResult.technique;
                     var granularity = trialResult.granularity;
+                    var numOpenWindows = trialResult.num_open_windows;
                     var trialNum = currentTrial;
                     var stimuli = trialResult.stimuli;
                     var userResponse = trialResult.user_response;
@@ -97,7 +98,7 @@
                     var trialEndTime = trialResult.end_time;
                     var trialDuration = trialResult.duration;
                     var accuracy = stimuli === userResponse ? 1 : 0;
-                    var row = [pid, technique, granularity, trialNum,
+                    var row = [pid, technique, granularity, trialNum, numOpenWindows,
                                 stimuli, userResponse, trialStartTime,
                                 trialEndTime, trialDuration, accuracy];
                     trialData.push(row);
@@ -113,14 +114,17 @@
                 }
             }
             $(document).ready(function () {
+              pid = ACPToolKit.getCurrentParticipantId();
+              if (pid) {
+                var experimentjson = 'data/experiment.json';
+              }
                 $.get('data/experiments.json', function (data) {
                     trialsData = data.experiments;
                     currentTrial = 0;
-                    totalNumberOfTrials = trialsData.length;
+                    totalNumberOfTrials = trialsData.length; // make to 36
                     $('.js-expt-num-trials').text(totalNumberOfTrials);
                     trialData.push(headers);
                     next();
-                    pid = ACPToolKit.getCurrentParticipantId();
                 })
             });
         </script>

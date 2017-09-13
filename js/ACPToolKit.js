@@ -81,10 +81,12 @@ var ACPToolKit = (function () {
 
             var data_file = options.data_file;
             var stimuli = options.stimuli;
+            var numOpenWindows = options.num_open_windows;
 
             $('.js-expt-technique').text(options.technique);
             $('.js-expt-granularity').text(options.granularity);
             $('.js-expt-stimuli').text(options.stimuli);
+            $('.js-expt-numOpenWindows').text(options.num_open_windows);
 
             // Clean up DOM
             wm.destroyAllWindows();
@@ -104,7 +106,7 @@ var ACPToolKit = (function () {
                     break;
             }
 
-            var iface = new AutoComPaste.Interface(wm, engine, data_file);
+            var iface = new AutoComPaste.Interface(wm, engine, data_file, numOpenWindows);
 
             // Highlight the relevant text.
             iface.addEventListener('loaded', function () {
