@@ -119,7 +119,7 @@
                 var experimentjson = 'data/experiments.json';
               }
                 $.get('data/experiments.json', function (data) {
-                    trialsData = $.parseJSON(data).experiments;
+                    trialsData = data.experiments;
                     currentTrial = 0;
                     totalNumberOfTrials = trialsData.length; // make to 36
 

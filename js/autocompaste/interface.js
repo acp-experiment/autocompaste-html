@@ -110,13 +110,22 @@ AutoComPaste.Interface = (function () {
         // For every text that we find, we create a new window for it.
         console.log("Interface._fetchTextComplete: Finished fetching all texts");
 
-        var count = 0;
 
         for (var text_title in privates.texts) {
-          if (privates.texts.hasOwnProperty(text_title)) {
-            console.log("Interface._fetchTextComplete: Creating window for text \"" + text_title + "\"");
-            iface._createWindowForText(text_title);
-          }
+          var textsArray = text_title.split(".");
+          var currText = parseInt(textsArray[0]);
+          console.log('my textsArray is:', textsArray, currText, privates.texts);
+
+          // if ($.inArray(currText, num_open_windows) != -1) {
+            if (privates.texts.hasOwnProperty(text_title) && numOpenWindows != 1) {
+              console.log("Interface._fetchTextComplete: Creating window for text \"" + text_title + "\"");
+              iface._createWindowForText(text_title);
+            } else if (currText == numOpenWindows) {
+              console.log('create windows');
+              iface._createWindowForText(text_title);
+
+            }
+          //}
         }
 
         // Create a text editor window.
