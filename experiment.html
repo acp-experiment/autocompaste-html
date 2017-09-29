@@ -104,6 +104,7 @@
                     trialData.push(row);
                 }
                 if (currentTrial < totalNumberOfTrials) {
+                    console.log('whay');
                     ACPToolKit.presentTrial(trialsData[currentTrial]);
                     currentTrial += 1;
                     $('.js-expt-current-trial').text(currentTrial);
@@ -117,11 +118,14 @@
               var fileIn = 'data/experiment';
               pid = ACPToolKit.getCurrentParticipantId();
               var pidIn = pid.replace(/p/gi, ''); // trimming character p, with case-insensitive, from the pid
-              fileIn = fileIn + pidIn + ".json"; // concat to make full file path, unique for each pid
+              fileIn = fileIn + pidIn + ".json"; // concat to make full file path, unique for each pid\
+              console.log(fileIn);
               $.get(fileIn, function (data) {
                 trialsData = data.experiments;
                 currentTrial = 0;
                 totalNumberOfTrials = trialsData.length; // make to 36
+                console.log(totalNumberOfTrials);
+                console.log(fileIn);
                 $('.js-expt-num-trials').text(totalNumberOfTrials);
                 trialData.push(headers);
                 next();
