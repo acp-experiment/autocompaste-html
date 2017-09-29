@@ -114,23 +114,19 @@
                 }
             }
             $(document).ready(function () {
+              var fileIn = 'data/experiment';
               pid = ACPToolKit.getCurrentParticipantId();
-              if (pid) {
-                var experimentjson = 'data/experiments.json';
-                console.log('experimentjson', experimentjson);
-              }
-                $.get('data/experiments.json', function (data) {
-                    trialsData = data.experiments;
-                    currentTrial = 0;
-                    totalNumberOfTrials = trialsData.length; // make to 36
-
-                    console.log("trialsData", trialsData);
-                    $('.js-expt-num-trials').text(totalNumberOfTrials);
-                    trialData.push(headers);
-                    next();
-                    pid = ACPToolKit.getCurrentParticipantId();
-                })
-            });
+              var pidIn = pid.replace(/p/gi, ''); // trimming character p, with case-insensitive, from the pid
+              fileIn = fileIn + pidIn + ".json"; // concat to make full file path, unique for each pid
+              $.get(fileIn, function (data) {
+                trialsData = data.experiments;
+                currentTrial = 0;
+                totalNumberOfTrials = trialsData.length; // make to 36
+                $('.js-expt-num-trials').text(totalNumberOfTrials);
+                trialData.push(headers);
+                next();
+              })
+          });
         </script>
     </body>
 </html>
