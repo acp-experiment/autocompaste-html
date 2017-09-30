@@ -110,7 +110,7 @@
             "num_open_windows": 4,
             "windows": [2,3,4,5],
             "data_file": "data/texts.json",
-            "stimuli": " A number system having only two symbols, 0 and 1."
+            "stimuli": "A number system having only two symbols, 0 and 1."
         },
         {
             "technique": "TRADITIONAL",
@@ -262,7 +262,7 @@
             "num_open_windows": 4,
             "windows": [2,3,4,5],
             "data_file": "data/texts.json",
-            "stimuli": " A number system having only two symbols, 0 and 1."
+            "stimuli": "A number system having only two symbols, 0 and 1."
         },
         {
             "technique": "TRADITIONAL",
@@ -303,7 +303,7 @@
             "windows": [1],
             "data_file": "data/texts.json",
             "stimuli": "Take a break now and move on to the next technique, click Next Task when you're ready :)"
-        },        
+        },
         {
             "technique": "AUTOCOMPASTE",
             "granularity": "paragraph",
