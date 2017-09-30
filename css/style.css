@@ -1,5 +1,5 @@
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif !important;
   margin-bottom: 40px;
 }
 
@@ -9,9 +9,11 @@ body {
   margin-right: auto;
   margin-bottom: 20px;
 }
+
 body.experiment-page {
   margin-bottom: 0;
 }
+
 
 .pid {
   color: red;
