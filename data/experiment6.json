@@ -6,183 +6,31 @@
             "num_open_windows": 1,
             "windows": [1],
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?"
+            "stimuli": "acceptor atoms?"
         },
         {
             "technique": "AUTOCOMPASTE",
             "granularity": "phrase",
             "num_open_windows": 1,
-            "windows": [1],
+            "windows": [3],
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?"
+            "stimuli": "A circuit that increases"
         },
         {
             "technique": "AUTOCOMPASTE",
             "granularity": "phrase",
             "num_open_windows": 1,
-            "windows": [1],
+            "windows": [5],
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?"
+            "stimuli": "bistable multivibrator"
         },
         {
             "technique": "AUTOCOMPASTE",
             "granularity": "phrase",
             "num_open_windows": 4,
-            "windows": [1,2,3,4],
+            "windows": [1,5,3,4],
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "phrase",
-            "num_open_windows": 4,
-            "windows": [1,3,4,2],
-            "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "phrase",
-            "num_open_windows": 4,
-            "windows": [2,4,3,1],
-            "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "sentence",
-            "num_open_windows": 1,
-            "windows": [1],
-            "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "sentence",
-            "num_open_windows": 1,
-            "windows": [1],
-            "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "sentence",
-            "num_open_windows": 1,
-            "windows": [1],
-            "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "sentence",
-            "num_open_windows": 4,
-            "windows": [1,3,2,4],
-            "data_file": "data/texts.json",
-            "stimuli": "Circuit that passes an AC signal while blocking a DC voltage."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "sentence",
-            "num_open_windows": 4,
-            "windows": [1,2,4,3],
-            "data_file": "data/texts.json",
-            "stimuli": "Circuit that passes an AC signal while blocking a DC voltage."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "sentence",
-            "num_open_windows": 4,
-            "windows": [1,3,2,4],
-            "data_file": "data/texts.json",
-            "stimuli": "Circuit that passes an AC signal while blocking a DC voltage."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "paragraph",
-            "num_open_windows": 1,
-            "windows": [1],
-            "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "paragraph",
-            "num_open_windows": 1,
-            "windows": [1],
-            "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "paragraph",
-            "num_open_windows": 1,
-            "windows": [1],
-            "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "paragraph",
-            "num_open_windows": 4,
-            "windows": [4,3,1,2],
-            "data_file": "data/texts.json",
-            "stimuli": "number of positive charges"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "paragraph",
-            "num_open_windows": 4,
-            "windows": [4,3,1,2],
-            "data_file": "data/texts.json",
-            "stimuli": "number of positive charges"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "paragraph",
-            "num_open_windows": 4,
-            "windows": [1,3,4,2],
-            "data_file": "data/texts.json",
-            "stimuli": "number of positive charges"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "phrase",
-            "num_open_windows": 1,
-            "windows": [1],
-            "data_file": "data/texts.json",
-            "stimuli": "Take a break now! Click Next Task when you are ready :)"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "phrase",
-            "num_open_windows": 1,
-            "windows": [1],
-            "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "phrase",
-            "num_open_windows": 1,
-            "windows": [1],
-            "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "phrase",
-            "num_open_windows": 1,
-            "windows": [1],
-            "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "phrase",
-            "num_open_windows": 4,
-            "windows": [1,2,3,4],
-            "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?"
+            "stimuli": "A number system having"
         },
         {
             "technique": "AUTOCOMPASTE",
@@ -190,15 +38,23 @@
             "num_open_windows": 4,
             "windows": [1,3,4,2],
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?"
+            "stimuli": "current where the area of"
         },
         {
             "technique": "AUTOCOMPASTE",
             "granularity": "phrase",
             "num_open_windows": 4,
-            "windows": [2,4,3,1],
+            "windows": [2,4,1,3],
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?"
+            "stimuli": "rotating or moving component of a magnetic"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "num_open_windows": 1,
+            "windows": [3],
+            "data_file": "data/texts.json",
+            "stimuli": "Magnitude or size of a signal voltage or current."
         },
         {
             "technique": "AUTOCOMPASTE",
@@ -206,39 +62,15 @@
             "num_open_windows": 1,
             "windows": [1],
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?"
+            "stimuli": "Power supply that delivers an AC voltage."
         },
         {
             "technique": "AUTOCOMPASTE",
             "granularity": "sentence",
             "num_open_windows": 1,
-            "windows": [1],
+            "windows": [4],
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "sentence",
-            "num_open_windows": 1,
-            "windows": [1],
-            "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "sentence",
-            "num_open_windows": 4,
-            "windows": [1,3,2,4],
-            "data_file": "data/texts.json",
-            "stimuli": "Circuit that passes an AC signal while blocking a DC voltage."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "sentence",
-            "num_open_windows": 4,
-            "windows": [1,2,4,3],
-            "data_file": "data/texts.json",
-            "stimuli": "Circuit that passes an AC signal while blocking a DC voltage."
+            "stimuli": "Condition that occurs when a bridge circuit is adjusted to produce a zero output."
         },
         {
             "technique": "AUTOCOMPASTE",
@@ -246,7 +78,23 @@
             "num_open_windows": 4,
             "windows": [1,3,2,4],
             "data_file": "data/texts.json",
-            "stimuli": "Circuit that passes an AC signal while blocking a DC voltage."
+            "stimuli": "Relating to frequencies that can be heard by the human ear"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "num_open_windows": 4,
+            "windows": [5,2,4,3],
+            "data_file": "data/texts.json",
+            "stimuli": "A three terminal device in which emitter to collector current is controlled by base current."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "num_open_windows": 4,
+            "windows": [1,3,2,4],
+            "data_file": "data/texts.json",
+            "stimuli": "Width of the band of frequencies between the half power points."
         },
         {
             "technique": "AUTOCOMPASTE",
@@ -262,15 +110,15 @@
             "num_open_windows": 1,
             "windows": [1],
             "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage."
+            "stimuli": "What is alligator clip? Spring clip on the end of a test lead used to make a temporary connection."
         },
         {
             "technique": "AUTOCOMPASTE",
             "granularity": "paragraph",
             "num_open_windows": 1,
-            "windows": [1],
+            "windows": [2],
             "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage."
+            "stimuli": "What is alternating current? An electric current that rises to a maximum in one direction, falls back to zero and then rises to a maximum in the opposite direction and then repeats."
         },
         {
             "technique": "AUTOCOMPASTE",
@@ -278,7 +126,7 @@
             "num_open_windows": 4,
             "windows": [4,3,1,2],
             "data_file": "data/texts.json",
-            "stimuli": "number of positive charges"
+            "stimuli": "What is armstrong oscillator? An oscillator that uses an isolation transformer to achieve positive feedback from output to input."
         },
         {
             "technique": "AUTOCOMPASTE",
@@ -286,15 +134,167 @@
             "num_open_windows": 4,
             "windows": [4,3,1,2],
             "data_file": "data/texts.json",
-            "stimuli": "number of positive charges"
+            "stimuli": "What is analog? Information represented as continuously varying voltage or current rather than in discrete levels as opposed to digital data varying between two discrete levels."
         },
         {
             "technique": "AUTOCOMPASTE",
             "granularity": "paragraph",
+            "num_open_windows": 4,
+            "windows": [1,3,5,2],
+            "data_file": "data/texts.json",
+            "stimuli": "What is base biasing? A method of biasing a BJT in which the bias voltage is supplied to the base by means of a resistor."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "num_open_windows": 1,
+            "windows": [1],
+            "data_file": "data/texts.json",
+            "stimuli": "Take a break now! You don't have to copy and paste anything for this task. Click Next Task when you are ready :)"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "num_open_windows": 1,
+            "windows": [1],
+            "data_file": "data/texts.json",
+            "stimuli": "acceptor atoms?"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "num_open_windows": 1,
+            "windows": [3],
+            "data_file": "data/texts.json",
+            "stimuli": "A circuit that increases"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "num_open_windows": 1,
+            "windows": [5],
+            "data_file": "data/texts.json",
+            "stimuli": "bistable multivibrator"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "num_open_windows": 4,
+            "windows": [1,5,3,4],
+            "data_file": "data/texts.json",
+            "stimuli": "A number system having"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
             "num_open_windows": 4,
             "windows": [1,3,4,2],
             "data_file": "data/texts.json",
-            "stimuli": "number of positive charges"
+            "stimuli": "current where the area of"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "num_open_windows": 4,
+            "windows": [2,4,1,3],
+            "data_file": "data/texts.json",
+            "stimuli": "rotating or moving component of a magnetic"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "num_open_windows": 1,
+            "windows": [3],
+            "data_file": "data/texts.json",
+            "stimuli": "Magnitude or size of a signal voltage or current."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "num_open_windows": 1,
+            "windows": [1],
+            "data_file": "data/texts.json",
+            "stimuli": "Power supply that delivers an AC voltage."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "num_open_windows": 1,
+            "windows": [4],
+            "data_file": "data/texts.json",
+            "stimuli": "Condition that occurs when a bridge circuit is adjusted to produce a zero output."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "num_open_windows": 4,
+            "windows": [1,3,2,4],
+            "data_file": "data/texts.json",
+            "stimuli": "Relating to frequencies that can be heard by the human ear"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "num_open_windows": 4,
+            "windows": [5,2,4,3],
+            "data_file": "data/texts.json",
+            "stimuli": "A three terminal device in which emitter to collector current is controlled by base current."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "sentence",
+            "num_open_windows": 4,
+            "windows": [1,3,2,4],
+            "data_file": "data/texts.json",
+            "stimuli": "Width of the band of frequencies between the half power points."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "num_open_windows": 1,
+            "windows": [1],
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "num_open_windows": 1,
+            "windows": [1],
+            "data_file": "data/texts.json",
+            "stimuli": "What is alligator clip? Spring clip on the end of a test lead used to make a temporary connection."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "num_open_windows": 1,
+            "windows": [2],
+            "data_file": "data/texts.json",
+            "stimuli": "What is alternating current? An electric current that rises to a maximum in one direction, falls back to zero and then rises to a maximum in the opposite direction and then repeats."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "num_open_windows": 4,
+            "windows": [4,3,1,2],
+            "data_file": "data/texts.json",
+            "stimuli": "What is armstrong oscillator? An oscillator that uses an isolation transformer to achieve positive feedback from output to input."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "num_open_windows": 4,
+            "windows": [4,3,1,2],
+            "data_file": "data/texts.json",
+            "stimuli": "What is analog? Information represented as continuously varying voltage or current rather than in discrete levels as opposed to digital data varying between two discrete levels."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "num_open_windows": 4,
+            "windows": [1,3,5,2],
+            "data_file": "data/texts.json",
+            "stimuli": "What is base biasing? A method of biasing a BJT in which the bias voltage is supplied to the base by means of a resistor."
         },
         {
             "technique": "AUTOCOMPASTE",
@@ -308,25 +308,25 @@
             "technique": "TRADITIONAL",
             "granularity": "phrase",
             "num_open_windows": 1,
-            "windows": [1],
+            "windows": [6],
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?"
+            "stimuli": "an article is usually considered to be a type"
         },
         {
             "technique": "TRADITIONAL",
             "granularity": "phrase",
             "num_open_windows": 1,
-            "windows": [1],
+            "windows": [5],
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?"
+            "stimuli": "between the half power"
         },
         {
             "technique": "TRADITIONAL",
             "granularity": "phrase",
             "num_open_windows": 1,
-            "windows": [1],
+            "windows": [3],
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?"
+            "stimuli": "power of a signal"
         },
         {
             "technique": "TRADITIONAL",
@@ -334,15 +334,15 @@
             "num_open_windows": 4,
             "windows": [1,2,3,4],
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?"
+            "stimuli": "for an AC generator"
         },
         {
             "technique": "TRADITIONAL",
             "granularity": "phrase",
             "num_open_windows": 4,
-            "windows": [1,3,4,2],
+            "windows": [2,3,4,1],
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?"
+            "stimuli": "Measure of how easily AC will flow through"
         },
         {
             "technique": "TRADITIONAL",
@@ -350,31 +350,31 @@
             "num_open_windows": 4,
             "windows": [2,4,3,1],
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?"
+            "stimuli": "Equipment that will operate on"
         },
         {
             "technique": "TRADITIONAL",
             "granularity": "sentence",
             "num_open_windows": 1,
-            "windows": [1],
+            "windows": [6],
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?"
+            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective."
         },
         {
             "technique": "TRADITIONAL",
             "granularity": "sentence",
             "num_open_windows": 1,
-            "windows": [1],
+            "windows": [2],
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?"
+            "stimuli": "Spring clip on the end of a test lead used to make a temporary connection."
         },
         {
             "technique": "TRADITIONAL",
             "granularity": "sentence",
             "num_open_windows": 1,
-            "windows": [1],
+            "windows": [3],
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?"
+            "stimuli": " A device that converts a radiated electromagnetic wave into an electrical wave."
         },
         {
             "technique": "TRADITIONAL",
@@ -382,119 +382,119 @@
             "num_open_windows": 4,
             "windows": [1,2,3,4],
             "data_file": "data/texts.json",
-            "stimuli": "Circuit that passes an AC signal while blocking a DC voltage."
+            "stimuli": "The rotating or moving component of a magnetic circuit."
         },
         {
             "technique": "TRADITIONAL",
             "granularity": "sentence",
+            "num_open_windows": 4,
+            "windows": [2,3,4,5],
+            "data_file": "data/texts.json",
+            "stimuli": " A number system having only two symbols, 0 and 1."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "sentence",
+            "num_open_windows": 4,
+            "windows": [2,1,4,3],
+            "data_file": "data/texts.json",
+            "stimuli": "Trivalent atoms that accept free electrons from pentavalent atoms."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "num_open_windows": 1,
+            "windows": [6],
+            "data_file": "data/texts.json",
+            "stimuli": "The body may perhaps compensates for the loss of a true metaphysics. I am counting my calories, yet I really want dessert. The stranger officiates the meal."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "num_open_windows": 1,
+            "windows": [4],
+            "data_file": "data/texts.json",
+            "stimuli": "What is average value? A value of voltage or current where the area of the wave above the value equals the area of the wave below the value."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "num_open_windows": 1,
+            "windows": [1],
+            "data_file": "data/texts.json",
+            "stimuli": "What is active region? The region of BJT operation between saturation and cut off used for linear amplification."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "num_open_windows": 4,
+            "windows": [4,3,1,2],
+            "data_file": "data/texts.json",
+            "stimuli": "What is Admittance? Measure of how easily AC will flow through a circuit. Admittance is the reciprocal of impedance and is measured in siemens."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "num_open_windows": 4,
+            "windows": [4,3,1,2],
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC load line? A graph representing all possible combinations of AC output voltage and current for an amplifier."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "num_open_windows": 4,
+            "windows": [1,3,4,2],
+            "data_file": "data/texts.json",
+            "stimuli": "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number. Every noun must be accompanied by the article, if any, corresponding to its definiteness, and the lack of an article (considered a zero article) itself specifies a certain definiteness."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "num_open_windows": 1,
+            "windows": [1],
+            "data_file": "data/texts.json",
+            "stimuli": "Take a break now! You don't have to copy and paste anything for this task. Click Next Task when you are ready :)"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "num_open_windows": 1,
+            "windows": [6],
+            "data_file": "data/texts.json",
+            "stimuli": "an article is usually considered to be a type"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "num_open_windows": 1,
+            "windows": [5],
+            "data_file": "data/texts.json",
+            "stimuli": "between the half power"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "num_open_windows": 1,
+            "windows": [3],
+            "data_file": "data/texts.json",
+            "stimuli": "power of a signal"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "num_open_windows": 4,
+            "windows": [1,2,3,4],
+            "data_file": "data/texts.json",
+            "stimuli": "for an AC generator"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
             "num_open_windows": 4,
             "windows": [2,3,4,1],
             "data_file": "data/texts.json",
-            "stimuli": "Circuit that passes an AC signal while blocking a DC voltage."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "granularity": "sentence",
-            "num_open_windows": 4,
-            "windows": [1,2,4,3],
-            "data_file": "data/texts.json",
-            "stimuli": "Circuit that passes an AC signal while blocking a DC voltage."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "granularity": "paragraph",
-            "num_open_windows": 1,
-            "windows": [1],
-            "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "granularity": "paragraph",
-            "num_open_windows": 1,
-            "windows": [1],
-            "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "granularity": "paragraph",
-            "num_open_windows": 1,
-            "windows": [1],
-            "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "granularity": "paragraph",
-            "num_open_windows": 4,
-            "windows": [4,3,1,2],
-            "data_file": "data/texts.json",
-            "stimuli": "number of positive charges"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "granularity": "paragraph",
-            "num_open_windows": 4,
-            "windows": [4,3,1,2],
-            "data_file": "data/texts.json",
-            "stimuli": "number of positive charges"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "granularity": "paragraph",
-            "num_open_windows": 4,
-            "windows": [1,3,4,2],
-            "data_file": "data/texts.json",
-            "stimuli": "number of positive charges"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "granularity": "phrase",
-            "num_open_windows": 1,
-            "windows": [1],
-            "data_file": "data/texts.json",
-            "stimuli": "Take a break now and click Next Task when you're ready :)"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "granularity": "phrase",
-            "num_open_windows": 1,
-            "windows": [1],
-            "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "granularity": "phrase",
-            "num_open_windows": 1,
-            "windows": [1],
-            "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "granularity": "phrase",
-            "num_open_windows": 1,
-            "windows": [1],
-            "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "granularity": "phrase",
-            "num_open_windows": 4,
-            "windows": [1,2,3,4],
-            "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "granularity": "phrase",
-            "num_open_windows": 4,
-            "windows": [1,3,4,2],
-            "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?"
+            "stimuli": "Measure of how easily AC will flow through"
         },
         {
             "technique": "TRADITIONAL",
@@ -502,31 +502,31 @@
             "num_open_windows": 4,
             "windows": [2,4,3,1],
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?"
+            "stimuli": "Equipment that will operate on"
         },
         {
             "technique": "TRADITIONAL",
             "granularity": "sentence",
             "num_open_windows": 1,
-            "windows": [1],
+            "windows": [6],
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?"
+            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective."
         },
         {
             "technique": "TRADITIONAL",
             "granularity": "sentence",
             "num_open_windows": 1,
-            "windows": [1],
+            "windows": [2],
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?"
+            "stimuli": "Spring clip on the end of a test lead used to make a temporary connection."
         },
         {
             "technique": "TRADITIONAL",
             "granularity": "sentence",
             "num_open_windows": 1,
-            "windows": [1],
+            "windows": [3],
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?"
+            "stimuli": " A device that converts a radiated electromagnetic wave into an electrical wave."
         },
         {
             "technique": "TRADITIONAL",
@@ -534,23 +534,39 @@
             "num_open_windows": 4,
             "windows": [1,2,3,4],
             "data_file": "data/texts.json",
-            "stimuli": "Circuit that passes an AC signal while blocking a DC voltage."
+            "stimuli": "The rotating or moving component of a magnetic circuit."
         },
         {
             "technique": "TRADITIONAL",
             "granularity": "sentence",
             "num_open_windows": 4,
-            "windows": [2,3,4,1],
+            "windows": [2,3,4,5],
             "data_file": "data/texts.json",
-            "stimuli": "Circuit that passes an AC signal while blocking a DC voltage."
+            "stimuli": " A number system having only two symbols, 0 and 1."
         },
         {
             "technique": "TRADITIONAL",
             "granularity": "sentence",
             "num_open_windows": 4,
-            "windows": [1,2,4,3],
+            "windows": [2,1,4,3],
             "data_file": "data/texts.json",
-            "stimuli": "Circuit that passes an AC signal while blocking a DC voltage."
+            "stimuli": "Trivalent atoms that accept free electrons from pentavalent atoms."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "num_open_windows": 1,
+            "windows": [6],
+            "data_file": "data/texts.json",
+            "stimuli": "The body may perhaps compensates for the loss of a true metaphysics. I am counting my calories, yet I really want dessert. The stranger officiates the meal."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "num_open_windows": 1,
+            "windows": [4],
+            "data_file": "data/texts.json",
+            "stimuli": "What is average value? A value of voltage or current where the area of the wave above the value equals the area of the wave below the value."
         },
         {
             "technique": "TRADITIONAL",
@@ -558,23 +574,7 @@
             "num_open_windows": 1,
             "windows": [1],
             "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "granularity": "paragraph",
-            "num_open_windows": 1,
-            "windows": [1],
-            "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "granularity": "paragraph",
-            "num_open_windows": 1,
-            "windows": [1],
-            "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage."
+            "stimuli": "What is active region? The region of BJT operation between saturation and cut off used for linear amplification."
         },
         {
             "technique": "TRADITIONAL",
@@ -582,7 +582,7 @@
             "num_open_windows": 4,
             "windows": [4,3,1,2],
             "data_file": "data/texts.json",
-            "stimuli": "number of positive charges"
+            "stimuli": "What is Admittance? Measure of how easily AC will flow through a circuit. Admittance is the reciprocal of impedance and is measured in siemens."
         },
         {
             "technique": "TRADITIONAL",
@@ -590,7 +590,7 @@
             "num_open_windows": 4,
             "windows": [4,3,1,2],
             "data_file": "data/texts.json",
-            "stimuli": "number of positive charges"
+            "stimuli": "What is AC load line? A graph representing all possible combinations of AC output voltage and current for an amplifier."
         },
         {
             "technique": "TRADITIONAL",
@@ -598,7 +598,7 @@
             "num_open_windows": 4,
             "windows": [1,3,4,2],
             "data_file": "data/texts.json",
-            "stimuli": "number of positive charges"
+            "stimuli": "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number. Every noun must be accompanied by the article, if any, corresponding to its definiteness, and the lack of an article (considered a zero article) itself specifies a certain definiteness."
         }
     ]
 }
