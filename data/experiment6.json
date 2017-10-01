@@ -476,7 +476,7 @@
             "technique": "TRADITIONAL",
             "granularity": "paragraph",
             "num_open_windows": 4,
-            "windows": [16,4,2],
+            "windows": [1,6,4,2],
             "data_file": "data/texts.json",
             "stimuli": "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number. Every noun must be accompanied by the article, if any, corresponding to its definiteness, and the lack of an article (considered a zero article) itself specifies a certain definiteness."
         },
