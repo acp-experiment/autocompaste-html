@@ -6,7 +6,7 @@
             "num_open_windows": 4,
             "windows": [4,3,1,2],
             "data_file": "data/texts.json",
-            "stimuli": "What is Admittance? Measure of how easily AC will flow through a circuit. Admittance is the reciprocal of impedance and is measured in siemens."
+            "stimuli": "What is autotransformer? A single winding transformer where the output is taken from taps on the winding."
         },
         {
             "technique": "TRADITIONAL",
@@ -158,7 +158,7 @@
             "num_open_windows": 4,
             "windows": [4,3,1,2],
             "data_file": "data/texts.json",
-            "stimuli": "What is Admittance? Measure of how easily AC will flow through a circuit. Admittance is the reciprocal of impedance and is measured in siemens."
+            "stimuli": "What is autotransformer? A single winding transformer where the output is taken from taps on the winding."
         },
         {
             "technique": "TRADITIONAL",
