@@ -12,7 +12,7 @@
             "technique": "AUTOCOMPASTE",
             "granularity": "paragraph",
             "num_open_windows": 1,
-            "windows": [1],
+            "windows": [2],
             "data_file": "data/texts.json",
             "stimuli": "What is alligator clip? Spring clip on the end of a test lead used to make a temporary connection."
         },
@@ -164,7 +164,7 @@
             "technique": "AUTOCOMPASTE",
             "granularity": "paragraph",
             "num_open_windows": 1,
-            "windows": [1],
+            "windows": [2],
             "data_file": "data/texts.json",
             "stimuli": "What is alligator clip? Spring clip on the end of a test lead used to make a temporary connection."
         },
