@@ -74,15 +74,19 @@ var ACPToolKit = (function () {
         var wm = new WindowManager('autocompaste-display');
         var currentTrialOptions = null;
         var startTime = null;
+        var numKeyStrokes = null;
 
         module.presentTrial = function (options) {
             startTime = new Date().getTime();
+            numKeyStrokes = 0;
+            $(document).keydown(function(e){
+              numKeyStrokes++;
+            });
             currentTrialOptions = options;
 
             var data_file = options.data_file;
             var windows = options.windows;
             var stimuli = options.stimuli;
-
             $('.js-expt-technique').text(options.technique);
             $('.js-expt-granularity').text(options.granularity);
             $('.js-expt-stimuli').text(options.stimuli);
@@ -125,6 +129,8 @@ var ACPToolKit = (function () {
                         "<span class=\"highlighted\">" + value + "</span>");
                     });
 
+
+
                   $(win).find('pre').empty().append(content);
                 }
             });
@@ -135,11 +141,17 @@ var ACPToolKit = (function () {
                 console.error('There is no trial running right now!');
                 return {};
             }
+            // var numKeyStrokes = 0;
+            // $(document).keydown(function(e){
+            //   numKeyStrokes++;
+            // });
             var endTime = new Date().getTime();
             currentTrialOptions.start_time = startTime;
             currentTrialOptions.end_time = endTime;
             currentTrialOptions.duration = endTime - startTime;
             currentTrialOptions.user_response = $.trim($('.autocompaste-textarea').val());
+            currentTrialOptions.numKeyStrokes = numKeyStrokes;
+            console.log('acp current trial state', numKeyStrokes);
             return currentTrialOptions;
         }
     }

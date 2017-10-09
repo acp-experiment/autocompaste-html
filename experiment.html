@@ -83,7 +83,7 @@
             var totalNumberOfTrials;
             var headers = ['Participant id', 'Technique', 'Granularity',
                             'Trial no', 'Number of Open Windows', 'Stimuli', 'User Response', 'Trial Start Time',
-                            'Trial End Time', 'Trial Time', 'Accuracy'];
+                            'Trial End Time', 'Trial Time', 'Accuracy', 'Number of Keystrokes'];
             var trialData = [];
             var pid;
             function next () {
@@ -98,14 +98,14 @@
                     var trialStartTime = trialResult.start_time;
                     var trialEndTime = trialResult.end_time;
                     var trialDuration = trialResult.duration;
+                    var numKeyStrokes = trialResult.numKeyStrokes / trialNum;
                     var accuracy = stimuli === userResponse ? 1 : 0;
                     var row = [pid, technique, granularity, trialNum, numOpenWindows,
                                 stimuli, userResponse, trialStartTime,
-                                trialEndTime, trialDuration, accuracy];
+                                trialEndTime, trialDuration, accuracy, numKeyStrokes];
                     trialData.push(row);
                 }
                 if (currentTrial < totalNumberOfTrials) {
-                    console.log('whay');
                     ACPToolKit.presentTrial(trialsData[currentTrial]);
                     currentTrial += 1;
                     $('.js-expt-current-trial').text(currentTrial);
@@ -115,6 +115,7 @@
                     window.location = 'questionnaire-post.html';
                 }
             }
+
             $(document).ready(function () {
               var fileIn = 'data/experiment';
               pid = ACPToolKit.getCurrentParticipantId();
@@ -125,8 +126,6 @@
                 trialsData = data.experiments;
                 currentTrial = 0;
                 totalNumberOfTrials = trialsData.length; // make to 36
-                console.log(totalNumberOfTrials);
-                console.log(fileIn);
                 $('.js-expt-num-trials').text(totalNumberOfTrials);
                 trialData.push(headers);
                 next();
