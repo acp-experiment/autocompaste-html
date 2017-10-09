@@ -141,17 +141,13 @@ var ACPToolKit = (function () {
                 console.error('There is no trial running right now!');
                 return {};
             }
-            // var numKeyStrokes = 0;
-            // $(document).keydown(function(e){
-            //   numKeyStrokes++;
-            // });
+
             var endTime = new Date().getTime();
             currentTrialOptions.start_time = startTime;
             currentTrialOptions.end_time = endTime;
             currentTrialOptions.duration = endTime - startTime;
             currentTrialOptions.user_response = $.trim($('.autocompaste-textarea').val());
             currentTrialOptions.numKeyStrokes = numKeyStrokes;
-            console.log('acp current trial state', numKeyStrokes);
             return currentTrialOptions;
         }
     }
