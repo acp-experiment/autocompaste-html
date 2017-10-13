@@ -117,12 +117,13 @@
             }
 
             $(document).ready(function () {
-              var fileIn = 'data/experiment';
               pid = ACPToolKit.getCurrentParticipantId();
               var pidIn = pid.replace(/p/gi, ''); // trimming character p, with case-insensitive, from the pid
-              fileIn = fileIn + pidIn + ".json"; // concat to make full file path, unique for each pid\
-              console.log(fileIn);
-              $.get(fileIn, function (data) {
+              if (pid) {
+                var trialJson = 'data/experiment' + pidIn + '.json'; // concat to make full file path, unique for each pid\
+              }
+              // console.log(fileIn);
+              $.get(trialJson, function (data) {
                 trialsData = data.experiments;
                 currentTrial = 0;
                 totalNumberOfTrials = trialsData.length; // make to 36
