@@ -122,7 +122,7 @@
               if (pid) {
                 var trialJson = 'data/experiment' + pidIn + '.json'; // concat to make full file path, unique for each pid\
               }
-              // console.log(fileIn);
+              // console.log(trialJson);
               $.get(trialJson, function (data) {
                 trialsData = data.experiments;
                 currentTrial = 0;
